@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+  text-align: center;
+  padding: 100px 0;
+}
+
+hr {
+  margin: 100px 0;
+  border-color: #ddd;
+}
+
+/* ======================== */
+
+p {
+  font-size: 30px;
+}
+
+.inline span {
+  font-size: 1.5em;
+  position: relative;
+  background:linear-gradient(transparent 60%,#f97)60%;
+}
+
+
+
+
+
+/* ======================== */
+
+.img {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img-text{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  color: #fff;
+  font-size: 25px;
+  padding: 0 5px;
+  z-index: 1;
+}
+
+.new{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  color: #fff;
+  font-size: 25px;
+  padding: 0 5px;
+  z-index: 1;
+  background-color: #f97;
+}
+.black{
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  width: 115px;
+  color: rgb(119, 119, 121);
+  background-color:rgb(119, 119, 121);
+  box-shadow: 4px 0px 3px #000;
+}
+/* ======================== */
+
+.company span{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  display: block;
+  position: relative;
+}
+
+.about{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  /* transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,50%); */
+  color: rgba(255, 0, 0, 0.15);
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+
+
+
+/* ======================== */
+
+a {
+  letter-spacing: 0.5em;
+  padding: 15px 40px;
+  position: relative;
+  border-bottom: 1px solid #000;
+  
+}
+a:hover{
+  background: rgba(141, 141, 141, 0.473);
+  color: #fff;
+}
+
+/* ======================== */
+
+ul {
+  display: inline-block;
+}
+
+li {
+  position: relative;
+}
+
+li::after{
+  position: absolute;
+  top: 50%;
+  height: 1em;
+  content: "";
+}
+
+li::after {
+  left: 10px;
+  transform: translateY(-70%) translateX(-280%)rotate(45deg);
+  width: 8px;
+  border-bottom: 3px solid #ee4b00c0;
+  border-right: 3px solid #ee4b00c0;
+}
+/* ======================== */
+
+h3 {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f97;
+  color: #fff;
+  font-weight: bold;
+  line-height: 70px;
+  font-size: 25px;
+  position: relative;
+}
+
+h3::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border: 15px solid transparent;
+  border-top: 15px solid  #f97;
+}
